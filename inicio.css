@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: system-ui;
+    background-image: url("fondo_main.jpg");
+    background-size: 100%;
+}
+
+header{
+    background-image: url("fondo cabecera.jpg");
+    text-align: center;
+}
+
+.logo{
+    height: 150px;
+}
+
+nav{
+    padding-bottom: 5px;
+}
+
+nav a{
+    padding: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.nosotros{
+    background-image: url("fondo cabecera.jpg");
+    border: solid 1px white;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.seccion1{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.video{
+    height: 400px;
+    width: 600px;
+}
+
+.tiposdeproductos{
+    text-align: center;
+    background-image: url("fondo cabecera.jpg");
+    border: solid 1px white;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.seccion2{
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+.integrantes{
+    text-align: center;
+    background-image: url("fondo cabecera.jpg");
+    border: solid 1px white;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 30px;
+}
+
+.seccion3{
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    width: 150px;
+    height: 200px;
+}
+
+.horarios{
+    text-align: center;
+    background-image: url("fondo cabecera.jpg");
+    border: solid 1px white;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.seccion4{
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+footer{
+    background-image: url("fondo cabecera.jpg");
+    text-align: center;
+}
+
+footer h3{
+    padding: 5px;
+}
+
+

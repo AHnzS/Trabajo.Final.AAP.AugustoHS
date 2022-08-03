@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="logo.png">
+        <nav><a href="index.html">Inicio</a> <a href="catalogo.html" target="_blank">Catalogo</a><a
+                href="contacto.html">Contacto</a></nav>
+    </header>
+    <article class="formulario">
+        <h1>Contacto</h1>
+        <p>Ante cualquier duda podes consultarnos llenando este formulario o haciendo click <a
+                href="https://api.whatsapp.com/send?phone=3364****&text=Aca deberia ir un mensaje" target="_blank">aqui</a> para
+            contactarnos por
+            Whatsapp</p>
+
+        <form>
+            Nombre: <input type="text" name="nombre" id="nombre" size="50" required><br>
+            Apellido: <input type="text" name="apellido" id="apellido" size="50" required><br>
+            E-mail: <input type="email" name="mail" id="mail" size="50" required><br>
+            Escribe aqui tu consulta: <br>
+            <textarea cols="50" rows="20" name="comentario" id="comentario" required></textarea>
+            <input type="submit" value="Enviar" onclick="consulta()">
+        </form>
+
+        <script type="text/javascript" src="formulario.js"></script>
+    </article>
+    <footer>
+        <h3>Creado por Augusto Hernandez Salcedo - Todos los derechos reservados 1999 - 2022</h3>
+    </footer>
+</body>
+
+</html>
